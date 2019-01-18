@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "arial";
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(30, 98, 119);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+p {
+    width: 60%;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(30, 98, 119);
+    color: white;
+}
+
+.blue {
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/vague.png);
+}
+
+.red {
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    width: 100%;
+    height: 200px;
+}
+
+.accueil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.intercont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
